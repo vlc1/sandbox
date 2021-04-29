@@ -1,6 +1,8 @@
 <!--
 Add here global page variables to use throughout your website.
 -->
+@def prepath = "sandbox"
+
 +++
 author = "Septimia Zenobia"
 mintoclevel = 2
