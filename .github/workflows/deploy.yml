@@ -38,7 +38,7 @@ jobs:
             Pkg.add(Pkg.PackageSpec(name="NodeJS"));
             using NodeJS;
             run(`$(npm_cmd()) install highlight.js purgecss`);
-            Pkg.add(Pkg.PackageSpec(name="Franklin""));
+            Pkg.add(Pkg.PackageSpec(name="Franklin"));
             using Franklin;
             cd("page");
             optimize();'
