@@ -17,9 +17,9 @@ jobs:
 
     - uses: actions/setup-node@v2
 
-		# https://github.com/shakiba/svgexport
+    # https://github.com/shakiba/svgexport
     - run: npm install svgexport -g
-		- run: svgexport torricelli.svg torricelli.png
+    - run: svgexport torricelli.svg torricelli.png
 
     - uses: actions/upload-artifact@v2
       with:
